@@ -56,6 +56,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD08C6EE220F75F100595862 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDE276CA220D678600E058F7 /* AppDelegate.swift */,
+				FDE276D1220D678600E058F7 /* Assets.xcassets */,
+				FDE276EE220D703400E058F7 /* Main.storyboard */,
+				FDE276D3220D678600E058F7 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FDE276BE220D678600E058F7 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +88,9 @@
 		FDE276C9220D678600E058F7 /* VynylChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				FDE276CA220D678600E058F7 /* AppDelegate.swift */,
-				FDE276D1220D678600E058F7 /* Assets.xcassets */,
-				FDE276EE220D703400E058F7 /* Main.storyboard */,
-				FDE276D3220D678600E058F7 /* LaunchScreen.storyboard */,
-				FDE276D6220D678600E058F7 /* Info.plist */,
 				FDE276EB220D67B700E058F7 /* ArrayFlattener.swift */,
+				FDE276D6220D678600E058F7 /* Info.plist */,
+				FD08C6EE220F75F100595862 /* Resources */,
 			);
 			path = VynylChallenge;
 			sourceTree = "<group>";
